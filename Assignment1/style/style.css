@@ -1,5 +1,12 @@
-body {
-h1 {
+body { 
+ 
+ 
+ h1 {
 border: 2px soild #333;
  background-color: powderblue;
+padding: 35px;
+ text-align: center;
+}
+h2,h3 {
+ text-align: center;
 }
