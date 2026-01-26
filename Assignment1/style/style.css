@@ -1,11 +1,12 @@
 body { 
- 
- 
+ color: rgb(172, 219, 172)
+ background-color: rgb(39, 41, 38)
  h1 {
- background-color: 556149;
+ background-color: rgb(71, 108, 81);
 padding: 35px;
  text-align: center;
 }
 h2,h3 {
  text-align: center;
+
 }
