@@ -1,13 +1,16 @@
-body { 
-    text-align: center;
- color: rgb(172, 219, 172)
- background-color: rgb(39, 41, 38)
- h1 {
- background-color: rgb(71, 108, 81);
-padding: 35px;
- text-align: center;
+body {
+  background-color: rgb(39, 41, 38);   /* grey background */
+  color: rgb(172, 219, 172);           /* green text */
+  text-align: center;
 }
-h2,h3 {
- text-align: center;
 
-body }
+h1 {
+  background-color: rgb(71, 108, 81);  /* darker green headers */
+  padding: 30px;
+  margin-top: 40px;
+}
+
+h2, h3 {
+  margin: 15px auto;
+  width: 80%;
+}
