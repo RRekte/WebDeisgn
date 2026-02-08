@@ -25,4 +25,8 @@ li {
     color: rgb(118, 211, 118);
     display: inline-block;
     font-family: Georigia, serif;
+    nav a {
+        color: rgb(118, 211, 118);
+        font-family: Georgia, serif;
+    }
 }
