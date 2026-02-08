@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(39, 41, 38);   /* grey background */
+  color: rgb(172, 219, 172);           /* green text */
+  text-align: center;
+}
+
+h1 {
+header {
+  background-color: rgb(71, 108, 81);  /* darker green headers */
+  padding: 30px;
+  margin-top: 40px;
+}
+}
+
+h2, h3 {
+  margin: 15px auto;
+  width: 80%;
+}
+
+.Asylum {
+  font-size: 100px;
+}
+li {
+    list-style-type: none;
+    color: rgb(118, 211, 118);
+    display: inline-block;
+    font-family: Georigia, serif;
+}
