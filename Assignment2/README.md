@@ -1,0 +1,1 @@
+coding is always hard for me, I just have to really focuse and lock in as I go through these assignments.
