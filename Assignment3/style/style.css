@@ -78,7 +78,7 @@ input[type="text"],
     button {
   margin-top: 20px;
   background-color: #5e8266;
-  color: white;
+  color: rgb(194, 222, 196);
   padding: 10px 20px;
   font-size: 1rem;
   border: none;
@@ -102,6 +102,6 @@ table {
 }
 th, td {
   padding: 12px; 
-  border: 1px solid #5a645c; 
+  border: 1px solid #576c5b; 
   text-align: left; 
 }
