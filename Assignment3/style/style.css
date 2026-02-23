@@ -105,3 +105,23 @@ th, td {
   border: 1px solid #576c5b; 
   text-align: left; 
 }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@media (max-width: 600px) {
+
+}
+body {
+  font-size: 14px;
+  padding: 10px;
+}
+li {
+  display: block; 
+  margin: 10px 0; 
+}
+nav {
+  text-align: center;
+}
+header, .chapter, footer {
+  padding: 10px; 
+}
+
+
