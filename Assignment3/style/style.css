@@ -2,6 +2,12 @@ body {
   background-color: rgb(39, 41, 38);   /* grey background */
   color: rgb(172, 219, 172);           /* green text */
   text-align: center;
+  .special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 }
 
  nav a {
