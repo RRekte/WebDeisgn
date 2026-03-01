@@ -1,27 +1,40 @@
 body {
-  background-color: rgb(39, 41, 38);   /* grey background */
-  color: rgb(172, 219, 172);           /* green text */
+  background-color: rgb(39, 41, 38);
+  color: rgb(172, 219, 172);
   text-align: center;
-  .special-elite-regular {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.special-elite-regular {
   font-family: "Special Elite", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
+nav {
+  margin-top: 20px;
 }
 
- nav a {
-        color: rgb(118, 211, 118);
-        font-family: Georgia, serif;
-    }
-    nav a:hover {
-        color: rgb(209, 237, 210)
-    }
-    li {
-    list-style-type: none;
-    color: rgb(118, 211, 118);
-    display: inline-block;
-    font-family: Georigia, serif;  
+nav ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: rgb(118, 211, 118);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: rgb(209, 237, 210);
 }
 
 h2, h3 {
@@ -29,53 +42,76 @@ h2, h3 {
   width: 80%;
 }
 
+h2 {
+  text-align: center;
+}
+
 .Asylum {
   font-size: 100px;
-   background-color: rgb(71, 108, 81);  
+  background-color: rgb(71, 108, 81);
   padding: 5px 15px;
   display: inline-block;
   border-radius: 5px;
 }
 
 img {
-    width: 300px;
-    height: auto;
-    margin-top: 20px;
+  max-width: 100%;
+  height: auto;
 }
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.gallery img {
+  width: calc(33.333% - 10px);
+  border-radius: 6px;
+}
+
 form {
-  padding: 20px; 
-  border-radius: 10px; 
-  border: 1px solid #516a51; 
-  width: 75%; 
-  margin: 0 auto; 
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #516a51;
+  width: 75%;
+  margin: 0 auto;
 }
+
 fieldset {
   border: none;
   padding: 0;
 }
+
 legend {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 15px;
 }
+
 label {
-  display: block; 
-  margin-top: 15px; 
+  display: block;
+  margin-top: 15px;
   font-weight: bold;
 }
+
 input[type="text"],
-    input[type="email"],
-    select {
-        width: 100%;
-        margin: 0 auto;
-        padding: 8px;
-        margin-top: 5px;
-        font-size: 1rem;
-        border: 1px solid #82ad87;
-        border-radius: 5px;
-        box-sizing: border-box;
-    }
-    button {
+input[type="email"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 1rem;
+  border: 1px solid #82ad87;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
   margin-top: 20px;
   background-color: #5e8266;
   color: rgb(194, 222, 196);
@@ -89,53 +125,37 @@ input[type="text"],
 button:hover {
   background-color: #415f46;
 }
-h2{
-    text-align-center;
-}
+
 table {
-  width: 78%; 
-  margin: 0 auto; 
-  margin-bottom: 30px; 
-  background-color: #233227; 
-  border: 1px solid #121a13; 
-  border-radius: 4px; 
+  width: 78%;
+  margin: 0 auto 30px auto;
+  background-color: #233227;
+  border: 1px solid #121a13;
+  border-radius: 4px;
+  border-collapse: collapse;
 }
+
 th, td {
-  padding: 12px; 
-  border: 1px solid #576c5b; 
-  text-align: left; 
+  padding: 12px;
+  border: 1px solid #576c5b;
+  text-align: left;
 }
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 @media (max-width: 600px) {
 
-}
-body {
-  font-size: 14px;
-  padding: 10px;
-}
-li {
-  display: block; 
-  margin: 10px 0; 
-}
-nav {
-  text-align: center;
-}
-header, .chapter, footer {
-  padding: 10px; 
-}
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px; /* spacing between images */
-  max-width: 800px; /* optional: keeps the grid from stretching too far */
-  margin: 0 auto;
-  row-gap: 10px; /* vertical spacing */
-  column-gap: 10px; /* horizontal spacing */
-}
+  li {
+    display: block;
+    margin: 10px 0;
+  }
 
-.gallery img {
-  width: calc(33.333% - 10px); /* three images per row */
-  height: auto;
+  .gallery img {
+    width: 100%;
+  }
+
 }
