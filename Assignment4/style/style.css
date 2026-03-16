@@ -1,6 +1,31 @@
 body {
     background-color:rgb(174, 159, 129);
 }
+.title {
+    background-color: #c9c1d3;
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    background-color: #c9c1d3;
+    padding: 15px;
+}
+
+.item {
+    background-color: #e6e4ea;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #c9c1d3;
+    padding: 15px;
+}
 
 .blog-preview {
   display: flex; 
