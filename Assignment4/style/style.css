@@ -4,4 +4,9 @@ body {
 img{
     width: 300px;
 }
-
+<div class="blog-preview">
+.blog-preview {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 20px; 
