@@ -21,3 +21,6 @@ body {
   flex-direction: column; 
   gap: 10px; /    
 }
+img {
+    width: 800px;
+}
