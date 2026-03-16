@@ -9,6 +9,9 @@ body {
   gap: 20px; 
   .date {
 }
+img {
+    width: 800px;
+}
 .post-title {
 }
 .post-preview {
@@ -20,7 +23,4 @@ body {
  display: flex; 
   flex-direction: column; 
   gap: 10px; /    
-}
-img {
-    width: 800px;
 }
