@@ -12,7 +12,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
     background-color: #9b8268;
-    padding: 15px;
+     margin: auto; 
+     padding: 10px;
 }
 
 .item {
@@ -21,6 +22,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
+}
+.item img {
+  padding: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.itemp {
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
