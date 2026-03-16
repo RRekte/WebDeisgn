@@ -7,10 +7,10 @@ body {
   flex-direction: row; 
   align-items: center; 
   gap: 20px; 
-  .date {
-}
-img {
+  img {
     width: 800px;
+}
+  .date {
 }
 .post-title {
 }
