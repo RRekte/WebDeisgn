@@ -33,8 +33,9 @@ body {
   display: flex; 
   flex-direction: row; 
   align-items: center; 
-  gap: 20px; 
-  img {
+  gap: 20px;
+  
+  .blog-preview img {
     width: 800px;
 }
   .date {
@@ -49,7 +50,7 @@ body {
 .blog-text {
  display: flex; 
   flex-direction: column; 
-  gap: 10px; /    
+  gap: 10px;    
 }
 .gallery {
  display: grid;
