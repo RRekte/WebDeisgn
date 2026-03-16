@@ -10,12 +10,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-    background-color: #c9c1d3;
+    background-color: #a37c52;
     padding: 15px;
 }
 
 .item {
-    background-color: #e6e4ea;
+    background-color: #614c39;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ body {
 }
 
 .footer {
-    background-color: #c9c1d3;
+    background-color: #dabaa5;
     padding: 15px;
 }
 
