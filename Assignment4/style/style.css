@@ -18,11 +18,11 @@ body {
 
 .item {
     background-color: #614c39;
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .item img {
   padding: 0;
