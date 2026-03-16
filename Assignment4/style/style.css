@@ -2,7 +2,7 @@ body {
     background-color:rgb(174, 159, 129);
 }
 .title {
-    background-color: #c9c1d3;
+    background-color: #9e8a78;
     padding: 20px;
 }
 
@@ -10,7 +10,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-    background-color: #a37c52;
+    background-color: #9b8268;
     padding: 15px;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .footer {
-    background-color: #dabaa5;
+    background-color: #b39b8b;
     padding: 15px;
 }
 
