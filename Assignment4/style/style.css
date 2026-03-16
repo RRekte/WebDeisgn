@@ -1,12 +1,23 @@
 body {
     background-color:rgb(180, 217, 212);
 }
-img{
-    width: 300px;
-}
-<div class="blog-preview">
+
 .blog-preview {
   display: flex; 
   flex-direction: row; 
   align-items: center; 
   gap: 20px; 
+  .date {
+}
+.post-title {
+}
+.post-preview {
+}
+.read-more {
+}
+}
+.blog-text {
+ display: flex; 
+  flex-direction: column; 
+  gap: 10px; /    
+}
