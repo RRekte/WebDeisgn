@@ -28,10 +28,9 @@ nav a:hover {
   color: white;
 }
 
-/* TITLE */
-.title {
-  background-color: #9e8a78;
-  padding: 20px;
+/* TITLE spacing */
+h1 {
+  margin-top: 20px;
 }
 
 /* GALLERY GRID */
@@ -44,11 +43,10 @@ nav a:hover {
   padding: 10px;
 }
 
-/* GRID ITEMS */
+/* GRID ITEM */
 .item {
-  background-color: #614c39;
-  border-radius: 8px;
   overflow: hidden;
+  border-radius: 8px;
 }
 
 /* IMAGES */
