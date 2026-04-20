@@ -1,24 +1,13 @@
-/* =========================
-   GLOBAL
-========================= */
 
 body {
   background-color: rgb(174, 159, 129);
 }
-
-/* =========================
-   TITLE
-========================= */
 
 .title {
   background-color: #9e8a78;
   padding: 20px;
   text-align: center;
 }
-
-/* =========================
-   GALLERY GRID
-========================= */
 
 .gallery {
   display: grid;
@@ -45,16 +34,10 @@ body {
   border-radius: 8px;
 }
 
-/* If you use text inside items */
 .item p {
   text-align: center;
   font-size: 20px;
 }
-
-/* =========================
-   BLOG PREVIEW
-========================= */
-
 .blog-preview {
   display: flex;
   align-items: center;
@@ -62,7 +45,7 @@ body {
 }
 
 .blog-preview img {
-  width: 800px;
+  width: 400px;
   max-width: 100%;
 }
 
@@ -71,10 +54,6 @@ body {
   flex-direction: column;
   gap: 10px;
 }
-
-/* =========================
-   FEATURED SECTION GRID
-========================= */
 
 .featured-section {
   display: grid;
@@ -89,7 +68,6 @@ body {
   gap: 20px;
 }
 
-/* Featured small text tweaks */
 .featured-section .blog-preview img {
   width: 80px;
 }
@@ -106,10 +84,6 @@ body {
   font-size: 0.5rem;
 }
 
-/* =========================
-   CARDS
-========================= */
-
 .card-section {
   display: flex;
   gap: 20px;
@@ -124,9 +98,6 @@ body {
   border-radius: 6px;
 }
 
-/* =========================
-   PAGE WRAPPER
-========================= */
 
 .page-wrapper {
   max-width: 800px;
@@ -134,9 +105,6 @@ body {
   padding: 20px;
 }
 
-/* =========================
-   FOOTER
-========================= */
 
 .footer {
   display: flex;
@@ -158,9 +126,6 @@ body {
   font-size: 14px;
 }
 
-/* =========================
-   SOCIAL ICONS
-========================= */
 
 .social-icons img {
   width: 22px;
@@ -168,17 +133,11 @@ body {
   vertical-align: middle;
 }
 
-/* =========================
-   RESPONSIVE (EMPTY FOR NOW)
-   (You can build these later)
-========================= */
 
 @media (max-width: 600px) {
-  /* mobile styles */
 }
 
 @media (min-width: 600px) and (max-width: 1024px) {
-  /* tablet styles */
 }
 nav ul {
   display: flex;
