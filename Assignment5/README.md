@@ -1,0 +1,1 @@
+i can't lie I struggled a lot this week, the card setup was just not working at all so I decided to get rid of it. I added my playground assignment to this becasue I was really proud of it and the more I look at my current navbar the more I actually like it. 
