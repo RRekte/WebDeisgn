@@ -34,7 +34,7 @@ nav a:hover {
   padding: 20px;
 }
 
-/* GRID GALLERY */
+/* GALLERY GRID */
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -44,31 +44,15 @@ nav a:hover {
   padding: 10px;
 }
 
-/* INDIVIDUAL ITEMS */
+/* GRID ITEMS */
 .item {
   background-color: #614c39;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 8px;
   overflow: hidden;
 }
 
+/* IMAGES */
 .item img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  max-width: 900px;
-  margin: 30px auto;
-}
-
-.gallery img {
   width: 100%;
   height: 200px;
   object-fit: cover;
