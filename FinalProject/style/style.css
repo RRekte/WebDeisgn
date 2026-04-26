@@ -62,3 +62,62 @@ h1 {
 .navbar-brand:hover {
   transform: scale(1.15);
 }
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s ease;
+
+  background-color: #e0e2e5;
+  padding: 10px;
+}
+#popup.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+@keyframes pulse {
+  0% { transform: scale(1); } /* start at regular size   */
+  50% { transform: scale(1.03); } /* grow slightly in middle */
+  100% { transform: scale(1); } /* return to normal size   */
+}
+#openPopup {
+  animation: pulse 3s ease-in-out infinite;
+}
+.parallax-banner {
+  height: 500px;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed; /* parallax */
+  position: relative;
+}
+
+.parallax-banner-overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25); /* optional soft darkening */
+}
+
+.parallax-banner-content {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #faf7e8;
+  text-shadow: 0 0 10px #000;
+}
+@media (max-width: 768px) {
+  .parallax-banner {
+    background-attachment: scroll;
+    height: 320px;
+  }
+
+  .parallax-banner-content h1 {
+    font-size: 2rem;
+  }
+}
