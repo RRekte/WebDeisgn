@@ -121,3 +121,7 @@ h1 {
     font-size: 2rem;
   }
 }
+canvas {
+  display: block;
+  margin: 20px auto;
+}
