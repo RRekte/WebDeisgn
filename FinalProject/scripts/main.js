@@ -1,8 +1,8 @@
 let y = 0; // starting at the top of the canvas
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d"); // our drawing “brush”
-ctx.fillStyle = "rgba(255, 200, 255, 0.8)";
-ctx.shadowColor = "rgba(255, 200, 255, 0.8)";
+ctx.fillStyle = "rgba(66, 58, 50, 0.8)";
+ctx.shadowColor = "rgba(71, 58, 48, 0.8)";
 ctx.shadowBlur = 20;
 ctx.beginPath();
 ctx.arc(150, 150, 40, 0, Math.PI * 2);
