@@ -1,6 +1,4 @@
 let y = 0; // starting at the top of the canvas
-
-<canvas id="myCanvas" width="400" height="400"></canvas>
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d"); // our drawing “brush”
 ctx.fillStyle = "rgba(255, 200, 255, 0.8)";
@@ -24,9 +22,6 @@ function loop() {
 }
 
 loop(); // start the animation
-
-
-
 
 
 
