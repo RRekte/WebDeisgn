@@ -57,6 +57,7 @@ h1 {
   width: 300px;
   height: auto;
   display: block;
+  align-items: center;
 }
 
 .item {
