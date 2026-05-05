@@ -57,12 +57,11 @@ h1 {
 
 /* IMAGES */
 .gallery img {
-  width: 150px;   /* adjust size here */
-  height: auto;   /* keep proportions */
+  width: 150px !important;
+  height: auto !important;
   display: block;
 }
 
-/* OPTIONAL GRID ITEM (not currently used, but kept) */
 .item {
   overflow: hidden;
   border-radius: 8px;
@@ -75,7 +74,6 @@ h1 {
   display: block;
 }
 
-/* NAVBAR EFFECT */
 .navbar-brand {
   transition: transform 0.5s ease;
 }
@@ -84,7 +82,6 @@ h1 {
   transform: scale(1.15);
 }
 
-/* POPUP */
 #popup {
   position: fixed;
   top: 50%;
@@ -103,7 +100,6 @@ h1 {
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* ANIMATION */
 @keyframes pulse {
   0% { transform: scale(1); }
   50% { transform: scale(1.03); }
@@ -114,7 +110,6 @@ h1 {
   animation: pulse 3s ease-in-out infinite;
 }
 
-/* PARALLAX */
 .parallax-banner {
   height: 500px;
   background-size: cover;
@@ -139,7 +134,6 @@ h1 {
   text-shadow: 0 0 10px #000;
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
   .parallax-banner {
     background-attachment: scroll;
@@ -151,7 +145,6 @@ h1 {
   }
 }
 
-/* CANVAS */
 canvas {
   display: block;
   margin: 20px auto;
