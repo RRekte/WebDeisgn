@@ -57,7 +57,7 @@ h1 {
 
 /* IMAGES */
 .gallery img {
-  width: 300px !important;
+  width: 600px !important;
   height: auto !important;
   display: block;
 }
