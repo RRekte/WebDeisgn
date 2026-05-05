@@ -45,70 +45,88 @@ h1 {
 /* GALLERY GRID */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* keep layout */
   gap: 15px;
   max-width: 900px;
   margin: 30px auto;
   padding: 10px;
+
+  justify-items: center; /* prevents images from stretching */
+  align-items: center;
 }
 
-/* GRID ITEM */
+/* IMAGES */
+.gallery img {
+  width: 150px;   /* adjust size here */
+  height: auto;   /* keep proportions */
+  display: block;
+}
+
+/* OPTIONAL GRID ITEM (not currently used, but kept) */
 .item {
   overflow: hidden;
   border-radius: 8px;
 }
 
-/* IMAGES */
 .item img {
   width: 100%;
   height: 200px;
   object-fit: cover;
   display: block;
 }
+
+/* NAVBAR EFFECT */
 .navbar-brand {
   transition: transform 0.5s ease;
 }
+
 .navbar-brand:hover {
   transform: scale(1.15);
 }
+
+/* POPUP */
 #popup {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.9);
-
   opacity: 0;
   pointer-events: none;
   transition: 0.3s ease;
-
   background-color: #e0e2e5;
   padding: 10px;
 }
+
 #popup.open {
   opacity: 1;
   pointer-events: auto;
   transform: translate(-50%, -50%) scale(1);
 }
+
+/* ANIMATION */
 @keyframes pulse {
-  0% { transform: scale(1); } /* start at regular size   */
-  50% { transform: scale(1.03); } /* grow slightly in middle */
-  100% { transform: scale(1); } /* return to normal size   */
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
 }
+
 #openPopup {
   animation: pulse 3s ease-in-out infinite;
 }
+
+/* PARALLAX */
 .parallax-banner {
   height: 500px;
   background-size: cover;
   background-position: bottom;
-  background-attachment: fixed; /* parallax */
+  background-attachment: fixed;
   position: relative;
 }
 
 .parallax-banner-overlay {
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.25); /* optional soft darkening */
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .parallax-banner-content {
@@ -120,6 +138,8 @@ h1 {
   color: #faf7e8;
   text-shadow: 0 0 10px #000;
 }
+
+/* MOBILE */
 @media (max-width: 768px) {
   .parallax-banner {
     background-attachment: scroll;
@@ -130,12 +150,9 @@ h1 {
     font-size: 2rem;
   }
 }
+
+/* CANVAS */
 canvas {
   display: block;
   margin: 20px auto;
-}
-.gallery img {
-  width: 100px;      /* adjust this value to make them smaller/bigger */
-  height: 100px;      /* keeps proportions correct */
-  margin: 10px;      /* optional spacing */
 }
