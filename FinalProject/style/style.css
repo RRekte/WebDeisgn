@@ -134,3 +134,8 @@ canvas {
   display: block;
   margin: 20px auto;
 }
+.gallery img {
+  width: 200px;      /* adjust this value to make them smaller/bigger */
+  height: auto;      /* keeps proportions correct */
+  margin: 10px;      /* optional spacing */
+}
